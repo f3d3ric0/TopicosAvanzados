@@ -24,6 +24,7 @@ $result = $conn->query("SELECT *FROM datos WHERE accion='1' ORDER BY id DESC LIM
 		$ha=$ha.$fila['humedadAmbiente'].' ';
 		$tem=$tem.$fila['temperatura'].' ';
 		$lum=$lum.$fila['intensidadLuz'].' ';
+		//comentario
 	}
 	echo '<input type="hidden" id="humedadS" value="'.$hs.'"/>';
 	echo '<input type="hidden" id="humedadA" value="'.$ha.'"/>';
