@@ -5,7 +5,7 @@ if(isset($_SESSION['usuario'])){
     $marca=true;
     $rol=$_SESSION['rol'];
     $apeyNom=$_SESSION['apellido'].', '.$_SESSION['nombre'];
-}
+}//si no es usuario que ingrese como guesped
 else{
   $marca=false;
   $rol="";
